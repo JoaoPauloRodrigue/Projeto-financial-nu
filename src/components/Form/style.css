@@ -1,0 +1,111 @@
+.form-container {
+  width: 363px;
+  height: 351px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-grey2);
+  border-radius: 4px;
+}
+
+.form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+label {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: var(--color-grey4);
+}
+
+.container-input-description {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.input-description {
+  width: 314px;
+  height: 38px;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-grey3);
+  background-color: var(--color-grey1);
+  border: 2px solid var(--color-grey1);
+  border-radius: 8px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.input-description:hover {
+  border: 2px solid var(--color-grey4);
+}
+
+.exemple-subtitle {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--color-grey3);
+}
+
+.container-input-value-and-select {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.container-input-value {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.input-value {
+  width: 100px;
+  height: 38px;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-grey3);
+  background-color: var(--color-grey1);
+  border: 2px solid var(--color-grey1);
+  border-radius: 8px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.input-value:hover {
+  border: 2px solid var(--color-grey4);
+}
+
+.container-select-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.select-type {
+  width: 100px;
+  height: 38px;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-grey3);
+  background-color: var(--color-grey1);
+  border: 2px solid var(--color-grey1);
+  border-radius: 8px;
+  padding-left: 10px;
+}
+
+.select-type:hover {
+  border: 2px solid var(--color-grey4);
+}

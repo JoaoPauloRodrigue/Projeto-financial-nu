@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+:root {
+  font-family: "Nunito", sans-serif;
+
+  --color-primary: #fd377e;
+  --color-primary2: #e34981;
+  --color-segundary: #03b898;
+  --color-grey4: #212529;
+  --color-grey3: #868e96;
+  --color-grey2: #e9ecef;
+  --color-grey1: #f8f9fa;
+  --color-white: #ffffff;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}

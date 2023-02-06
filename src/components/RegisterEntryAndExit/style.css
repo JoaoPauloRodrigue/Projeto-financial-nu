@@ -1,0 +1,48 @@
+.container-register {
+  max-width: 560px;
+  min-width: 300px;
+  width: 100%;
+  height: 622px;
+}
+
+.title-register-resume {
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--color-grey4);
+}
+
+.img-without-money {
+  min-width: 300px;
+  max-width: 562px;
+  width: 100%;
+}
+
+.title-without-money {
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--color-grey4);
+  margin: 32px 0 27px 0;
+}
+
+.container-cards-list {
+  width: 300px;
+  overflow-y: auto;
+  height: 100%;
+}
+
+@media (min-width: 800px) {
+  .container-register {
+    max-width: 560px;
+    min-width: 300px;
+    width: 100%;
+    height: 622px;
+  }
+
+  .container-cards-list {
+    width: 100%;
+    overflow-y: auto;
+    height: 100%;
+  }
+}
